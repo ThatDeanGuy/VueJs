@@ -13,7 +13,7 @@ import MenuItem from "@/components/ui/MenuItem.vue";
       <MenuItem
           label="Dean"
           nav="/about"
-          color=""
+          color="green"
       />
     </div>
   </div>
