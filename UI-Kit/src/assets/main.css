@@ -1,0 +1,22 @@
+@import './base.css';
+body {
+  display: flex;
+  place-items: center;
+}
+
+#app {
+  width: 100vw;
+}
+
+#home-container {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+section {
+  display: flex;
+  place-items: center;
+  justify-content: center;
+}
+
+
