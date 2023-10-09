@@ -1,5 +1,4 @@
 <script setup lang="ts">
-
 import MenuItem from "@/components/ui/MenuItem.vue";
 </script>
 
@@ -13,7 +12,6 @@ import MenuItem from "@/components/ui/MenuItem.vue";
       <MenuItem
           label="Dean"
           nav="/about"
-          color="green"
       />
     </div>
   </div>
@@ -33,7 +31,4 @@ import MenuItem from "@/components/ui/MenuItem.vue";
     align-items: center;
     padding-bottom: 2em;
   }
-
-
-
 </style>

@@ -2,13 +2,15 @@
 const props = defineProps({
   label: String,
   nav: String,
-  color: String
+  color: String,
+  hover: Boolean
 })
 </script>
 
 <template>
   <RouterLink :to="nav || '#'">
     <a class="menu-item"
+       :class="{ 'menu-item:hover' : !hover }"
        :style="{color: color || 'hsla(160, 100%, 37%, 1)'}">
       {{ label }}
     </a>
